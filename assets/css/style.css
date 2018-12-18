@@ -91,3 +91,8 @@
 .last {
   margin-bottom: 50px;
 }
+
+#self {
+  width: 300px;
+  height: 300px;
+}
