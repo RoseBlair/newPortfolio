@@ -49,3 +49,22 @@
     /* Then we define how is distributed the remaining space */
     justify-content: space-around;
   }
+
+/* Container holding the image and the text */
+.photo-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+  /* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: white;
+  font-size: 35px;
+  background-color: blue;
+}
+
