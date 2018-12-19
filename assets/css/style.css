@@ -96,3 +96,21 @@
   width: 300px;
   height: 300px;
 }
+
+.wrapper {
+  width: 60%;
+  margin: auto;
+  /* background-color: white; */
+}
+
+textarea {
+  margin: auto;
+}
+
+.big {
+  font-size: 35px;
+}
+
+/* .flex-container {
+  display: flex;
+} */
