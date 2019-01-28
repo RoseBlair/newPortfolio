@@ -6,9 +6,6 @@
     
   }
 
-  
-
- 
 
   .nav {
     background-color: goldenrod;
@@ -104,6 +101,8 @@
   width: 300px;
   height: 300px;
   border-radius: 35px;
+  display: block;
+  text-align: center;
 }
 
 .wrapper {
@@ -141,11 +140,13 @@ textarea {
   margin-top: 50px;
   border-radius: 25px;
   background: #f8ee55;
+  margin-bottom: 40px;
 }
 
 #portfolioPlace {
   border-radius: 25px;
   background: black;
+  margin-bottom: 75px;
 }
 
 input {
@@ -158,13 +159,16 @@ textarea {
 
 #contactPageWrapper {
   background-color: black;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  width: 90%;
+  border-radius: 10px;
+  text-align: center;
 }
 
-#selfie {
-  float: left;
-  margin-right: 10px;
-  clear:both;
-}
+
+
+
 
 #self-description {
   margin-left: 0px;
@@ -173,4 +177,139 @@ textarea {
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: 1.5em;
+  margin-bottom: 35px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.codeLink {
+  font: white;
+  text-align: center;
+}
+
+#selfie {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 980px) {
+  #contactPageWrapper {
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 75px;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .nav {
+    font-size: 2em;
+  }
+
+  .footer {
+    font-size: 2em;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+    
+  #contactPageWrapper {
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 75px;
+    width: 90%;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  #frontPageName {
+    font-size: 8em;
+  }
+}
+
+
+@media (max-width: 640px) {
+  #contactPageWrapper {
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 75px;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  #frontPageName {
+    font: "times new roman", 'serif';
+    color: black;
+    text-shadow: 8px 8px white;
+    font-size: 8em;
+    text-align: center;
+    display: block;
+    margin-bottom: 200px;
+  }
+
+  .nav {
+    font-size: 2em;
+  }
+
+  .footer {
+    font-size: 2em;
+  }
+
+  #aboutPageWrapper {
+    margin-top: 50px;
+    border-radius: 25px;
+    background: #f8ee55;
+    margin-bottom: 200px;
+    width: 90%;
+  }
+
+  #contactPageWrapper {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .wrapper,
+  form {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  
 }
