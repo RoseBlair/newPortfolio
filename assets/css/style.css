@@ -140,10 +140,12 @@ textarea {
 #aboutPageWrapper {
   margin-top: 50px;
   border-radius: 25px;
+  background: #f8ee55;
 }
 
 #portfolioPlace {
   border-radius: 25px;
+  background: black;
 }
 
 input {
@@ -152,4 +154,23 @@ input {
 
 textarea {
   border-radius: 5px;
+}
+
+#contactPageWrapper {
+  background-color: black;
+}
+
+#selfie {
+  float: left;
+  margin-right: 10px;
+  clear:both;
+}
+
+#self-description {
+  margin-left: 0px;
+  overflow:auto;
+  display:block;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 1.5em;
 }
